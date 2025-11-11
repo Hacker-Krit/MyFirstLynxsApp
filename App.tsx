@@ -30,8 +30,8 @@ const categories = [
 ];
 
 // LINE Bot Configuration
-const LINE_CHANNEL_ACCESS_TOKEN = 'BAvJ+Ek2vKUdbZ41zqNL029t9tEE7tskke/SRbDq7ywFk/FfKpZWOzPp+sy39HJ7v4CtlwO5sCu8e5wO17ESJ2egDp1HKtyuDJQM5nNVKTIQ+WUzQtxD8ymAkANNyq8/WBY9pFn1mzsRjAzO6CO2XAdB04t89/1O/w1cDnyilFU=';
-const LINE_USER_ID = 'U0903b2698e5b8e6d7816789be9701803'; // Your LINE user ID (starts with U)
+const LINE_CHANNEL_ACCESS_TOKEN = 'your token';
+const LINE_USER_ID = 'your token'; // Your LINE user ID (starts with U)
 
 const App: React.FC<AppProps> = ({ onRender }) => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
